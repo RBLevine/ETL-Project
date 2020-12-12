@@ -1,4 +1,4 @@
-,Index,Date,Pipeline,Water,Rail,Air,Transit_and_Ground_Passenger_Transportation,Truck,Unemployment_Rate,Labor_Force_Participation_Rate,Unemployed
+,IndexID,Date,Pipeline,Water,Rail,Air,Transit_and_Ground_Passenger_Transportation,Truck,Unemployment_Rate,Labor_Force_Participation_Rate,Unemployed
 696,696,1/1/2005 0:00,38100.0,55500.0,191000.0,505200.0,407900.0,1348500.0,0.053,0.6579999999999999,7784000.0
 697,697,2/1/2005 0:00,37700.0,55100.0,191400.0,503400.0,407700.0,1349000.0,0.054000000000000006,0.659,7980000.0
 698,698,3/1/2005 0:00,37600.0,56700.0,191900.0,504200.0,409200.0,1359900.0,0.052000000000000005,0.659,7737000.0

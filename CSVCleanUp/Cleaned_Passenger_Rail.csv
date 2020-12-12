@@ -1,4 +1,4 @@
-,Index,Date,Passengers,Passenger_Miles,Total_Train_Miles,Employee_Hours_Worked,Yard_Switching_Miles
+,IndexID,Date,Passengers,Passenger_Miles,Total_Train_Miles,Employee_Hours_Worked,Yard_Switching_Miles
 336,336,1/1/1975 0:00,0.0,2624696.0,4134425.0,1501878.0,0.0
 337,337,2/1/1975 0:00,0.0,2275826.0,3600736.0,1371524.0,0.0
 338,338,3/1/1975 0:00,0.0,2520943.0,4067192.0,1516787.0,0.0
