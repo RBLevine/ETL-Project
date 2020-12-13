@@ -12,8 +12,8 @@ CREATE TABLE transportation_employment (
     air int  NOT NULL ,
     transit_and_ground_passenger_transportation int  NOT NULL ,
     truck int  NOT NULL ,
-    unemployment_Rate float  NOT NULL ,
-    labor_force_participation_rate float  NOT NULL ,
+    unemployment_Rate float8  NOT NULL ,
+    labor_force_participation_rate float8  NOT NULL ,
     unemployed int  NOT NULL ,
     PRIMARY KEY (
         date
