@@ -3,7 +3,7 @@ Transportation Through the Decade
 
 Project Outline
 
-	Matt and Rebecca wanted to get a glimpse into transportation trends for the decade between 2010 and 2020. With traffic growing, rail lines being extended, and air travel being more accessible, at least in our immediate community, out curiosity is aimed at growth of the use of the different transportation methods (air, rail, highway) nationally and the effects this has had on employment and personal spending within this field. 
+Matt and Rebecca wanted to get a glimpse into transportation trends for the decade between 2010 and 2020. With traffic growing, rail lines being extended, and air travel being more accessible, at least in our immediate community, out curiosity is aimed at growth of the use of the different transportation methods (air, rail, highway) nationally and the effects this has had on employment and personal spending within this field. 
 
 
 Extraction
@@ -35,5 +35,6 @@ We also decided to split the US Air CSV into two smaller tables, one that includ
 
 Load 
 
-	We started the loading process by setting up our Postgres database. With the help of https://app.quickdatabasediagrams.com/, we created a table schema that was then exported to pgAdmin. All six of the tables that were created had the same primary key of “Date”. Since Transportation Employment had the most rows, the rest of the tables “Date” columns were foreign keys in relation to primary key “Date” in transportation_employment table. 
-	The next part in the loading process was connecting to the Postgres database from our jupyter notebook. Before our transformed DataFrames could be loaded, the column headers were made lower case to match our tables in pgAdmin. A sample query was then run to confirm the data was added successfully. 
+We started the loading process by setting up our Postgres database. With the help of https://app.quickdatabasediagrams.com/, we created a table schema that was then exported to pgAdmin. All six of the tables that were created had the same primary key of “Date”. Since Transportation Employment had the most rows, the rest of the tables “Date” columns were foreign keys in relation to primary key “Date” in transportation_employment table. 
+
+The next part in the loading process was connecting to the Postgres database from our jupyter notebook. Before our transformed DataFrames could be loaded, the column headers were made lower case to match our tables in pgAdmin. A sample query was then run to confirm the data was added successfully. 
