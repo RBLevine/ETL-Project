@@ -9,23 +9,36 @@ Matt and Rebecca wanted to get a glimpse into transportation trends for the deca
 Extraction
 
 One dataset was used from the public platform Kaggle. This dataset, US Monthly Transportation Statistics, is large and extensive covering monthly statistics from January 1947 through July 2020 on over 130 columns worth of information. This dataset was split into five smaller sets: 
+
 •	Highway Vehicle Miles Traveled
+
 •	Personal Spending
+
 •	Rail
+
 •	Transportation Employment
+
 •	US Air. 
+
 The full dataset for US Monthly Transportation Statistics can be found here: https://www.kaggle.com/thaddeussegura/us-monthly-transportation-statistics
 
 
 Transformation
 
 For each of the five datasets above, we did the following:
+
 •	Uploaded the CSV’s into Pandas Data Frames in Jupyter Notebook
+
 •	Deleted rows that did not contain information in at least one column (other than Index and Date)
+
 •	Renamed the columns so that they were in a more readable format
+
 •	Dropped unnecessary index rows
+
 •	Changed the data type of each column to the most appropriate type for the Load process
+
 •	Converted the Date column to data type datetime
+
 •	Deleted columns with dates older than January 2010
 
 For the Passenger Rail CSV, we had an extra step of deleting the Passenger Rail Total Reports column as each row under that column had the same value and wasn’t adding any additional information to the dataset.
